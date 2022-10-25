@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt_br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="MusicApp.css"> 
+    <link rel="shortcut icon" href="LogoMusicin.png" type="image/x-icon"/>
+    <script src="MusicApp.js"></script>
+    <title>Musicin Tela Inicial</title>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .text-center{
+        left: 50%;
+        right: 50%;
+        text-align: center;
+      }
+
+      .text-size{
+        font-size: 200%;
+      }
+
+      .box {
+        display: flex;
+        background-color: #E8F1F2;
+        height: 6vw;
+        width: 15vw;
+        border-width: 10px;
+        border-style: solid;
+        border-color: gray;
+
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+      }
+
+
+
+      body {
+        height: 100%;
+        background-color: #E8F1F2;
+      }
+    </style>
+
+
+
+  </head>
+  <body>
+
+    <div>
+      <a href=""> <img class="element-left-top" src="people-fill.svg"></a>
+      <a href=""> <img class="element-center-top" src="person-circle.svg"></a>
+      <a href=""> <img class="element-right-top" src="64px.svg"></a>
+    </div>
+
+    <div>
+
+
+      <a href="www.google.com"><img class="" src="person-circle.svg"></a>
+      Nome do usuário
+      <p class="text-size">Título da música</p>
+      <div class="video">
+        <iframe width="720" height="480" src="https://youtu.be/Gn92YKpDHfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div>
+        <img id="like" onclick="changeLike()" class="element-left-bot" src="chat-left-heart-fill.svg">
+        <img class="element-center-bot" src="chat-left-dots-fill.svg">
+        <img class="element-right-bot" src="capslock-fill.svg">
+      </div>
+      <div class="description">
+        <h1>Descrição</h1>
+        <a class="box">.............................................</a>
+      </div>
+
+
+      
+    </div>
+
+
+  </body>
+</html>
