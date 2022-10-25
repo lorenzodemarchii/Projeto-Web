@@ -41,6 +41,7 @@
       .bi {
         vertical-align: -.125em;
         fill: currentColor;
+        font-size: clamp(2vw, 2.25vw , 2.5vw);
       }
 
       .nav-scroller {
@@ -61,19 +62,20 @@
         -webkit-overflow-scrolling: touch;
       }
 
-      .text-center{
-        margin-left: 60%;
-      }
-
       body {
         background-color: #E8F1F2;
         display: flex;
         align-items: center;
         background-image: url(background-app.png);
-        background-size: 60% 110%;
+        background-size: 60vw 50vw;
         background-repeat: no-repeat;
-        
       }
+
+      .arrange{
+        font-size: clamp(1.5vw, 1vw , 1vw);
+      }
+
+
     </style>
     
     <!-- Custom styles for this template -->
@@ -81,7 +83,7 @@
   </head>
   <body class="text-center">
     
-  <main class=" w-100form-signin m-auto"> 
+  <main class="form-signin w-100 m-auto"> 
     <form>
       <h1 class="bi" style="color: #13293D">Bem vindos ao Musicin</h1>
       <h2 class="bi" style="color: #13293D">Entrar</h2>
@@ -105,7 +107,7 @@
         </div>
     
         <div>
-            <a class="forget-password" href="">Esqueci minha senha</a>
+            <a class="forget-password" href="EsqueciSenhaMusicApp.html">Esqueci minha senha</a>
         </div>
         
       <div class="clear"></div>
@@ -113,12 +115,12 @@
       <button class="button-login" type="submit" style = "background-color:#1B98E0; border-color: #E8F1F2; color: #E8F1F2">Continuar</button>
       <br>
       <br>
-      <button class="button-login" type="submit" style = "background-color:#E8F1F2; border-color: #1B98E0; color: #1B98E0"><img src = "logoGoogle.png" height ="25" width="25">   Continuar com conta Google</button>
+      <button class="button-login" type="button" style = "background-color:#E8F1F2; border-color: #1B98E0; color: #1B98E0"><img src = "logoGoogle.png" height ="25" width="25"> <b>Continuar com conta Google</b></button>
       <br>
       <br>
       <div>
         <label>
-          <p style="color: #247BA0">Ainda não tem conta?</p>
+          <p class = "arrange" style="color: #247BA0">Ainda não tem conta?</p>
           <a class="create-account" href="CadastroMusicApp.html">Cadastrar-se</a>
         </label>
       </div>

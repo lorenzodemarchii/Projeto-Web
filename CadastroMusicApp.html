@@ -41,6 +41,7 @@
       .bi {
         vertical-align: -.125em;
         fill: currentColor;
+        font-size: clamp(1vw, 1.5vw , 2vw);
       }
 
       .nav-scroller {
@@ -61,11 +62,6 @@
         -webkit-overflow-scrolling: touch;
       }
 
-      .text-center{
-        
-        margin-left: 60%;
-      }
-
       body {
         background-color: #E8F1F2;
         display: flex;
@@ -73,6 +69,10 @@
         background-image: url(background-app.png);
         background-size: 60% 110%;
         background-repeat: no-repeat;
+      }
+
+      .arrange{
+        font-size: clamp(1.5vw, 1vw , 1vw);
       }
     </style>
     
@@ -111,7 +111,7 @@
 
       <div>
         <label>
-          <p>Já possui uma conta?</p>
+          <p class = "arrange" style="color: #247BA0">Já possui uma conta?</p>
           <a class="create-account" href="LoginMusicApp.html">Entrar</a>
         </label>
       </div>

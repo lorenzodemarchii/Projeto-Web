@@ -4,17 +4,25 @@ html,
     height: 100%;
   }
 
+  .text-center{
+        
+    margin-left: 60vw;
+  }
+
 .form-signin {
   max-width: 330px;
   padding: 15px;
+  font-size: clamp(1vw, 1.5vw , 2vw);
 }
 
 .button-login{
   margin-left: 5%;
   border-radius: 5px;
-  width: 300px;
-  height: 50px;
+  width: 20vw;
+  height: 3vw;
+  font-size: clamp(1vw, 1vw , 1vw);
 }
+
 
 .form-signin .form-floating:focus-within {
   z-index: 2;
@@ -51,7 +59,7 @@ html,
   }
 
   .forget-password{
-    font-size: clamp(1vw, 2vw , 2vw);
+    font-size: clamp(1vw, 2vw , 80vw);
     color: blue;
     float:right;
   }

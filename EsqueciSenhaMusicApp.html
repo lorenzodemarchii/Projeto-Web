@@ -41,6 +41,7 @@
       .bi {
         vertical-align: -.125em;
         fill: currentColor;
+        font-size: clamp(2vw, 2.25vw , 2.50vw);
       }
 
       .nav-scroller {
@@ -73,6 +74,10 @@
         background-size: 60% 110%;
         background-repeat: no-repeat;
       }
+
+      .arrange{  
+        font-size: clamp(1.5vw, 1.75vw , 2.5vw);
+      }
     </style>
     
 
@@ -93,7 +98,7 @@
 
 
       <div class="form-signin">
-        <label for="floatingPassword" style="color: #247BA0">Email para recuperar a senha</label>
+        <label class = "arrange" for="floatingPassword" style="color: #247BA0">Email para recuperar a senha </label>
         <input type="email" class="form-signin" id="floatingPassword" placeholder="Digite seu email...">
       </div>
 
@@ -105,6 +110,11 @@
       <div>
         <label>
           <a class="create-account" href="LoginMusicApp.html" >Voltar</a>
+        </label>
+      </div>
+      <div>
+        <label>
+          <a class="forget-password" href="TrocarSenhaMusicApp.html" >Continuar</a>
         </label>
       </div>
 
